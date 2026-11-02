@@ -1,0 +1,2284 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The target system is: Generic - 1 - 
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/mingw32-make.exe.com"
+    found: "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc"
+      - "C:/Windows/System32/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc"
+      - "C:/Windows/arm-none-eabi-gcc.com"
+      - "C:/Windows/arm-none-eabi-gcc.exe"
+      - "C:/Windows/arm-none-eabi-gcc"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/"
+    found: "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/clion2026/clion 2026.2.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/clion2026/clion 2026.2.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/"
+    found: "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/4.3.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-ranlib.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-strip.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-ld.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-nm.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-readelf.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-dlltool.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-dlltool.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-dlltool"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-dlltool.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-dlltool.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-dlltool"
+      - "C:/Windows/System32/arm-none-eabi-dlltool.com"
+      - "C:/Windows/System32/arm-none-eabi-dlltool.exe"
+      - "C:/Windows/System32/arm-none-eabi-dlltool"
+      - "C:/Windows/arm-none-eabi-dlltool.com"
+      - "C:/Windows/arm-none-eabi-dlltool.exe"
+      - "C:/Windows/arm-none-eabi-dlltool"
+      - "C:/Windows/System32/wbem/arm-none-eabi-dlltool.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-dlltool.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-dlltool"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-dlltool.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-dlltool.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-dlltool"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-dlltool.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-dlltool.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-dlltool"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-dlltool"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-dlltool.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-dlltool.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-dlltool"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-dlltool.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-dlltool.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-dlltool"
+      - "D:/OpenOCD/bin/arm-none-eabi-dlltool.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-dlltool.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-dlltool"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-dlltool.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-dlltool.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-dlltool"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/dlltool.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/dlltool.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/dlltool"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/dlltool.com"
+    found: "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-addr2line.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-tapi"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-tapi"
+      - "C:/Windows/System32/arm-none-eabi-tapi.com"
+      - "C:/Windows/System32/arm-none-eabi-tapi.exe"
+      - "C:/Windows/System32/arm-none-eabi-tapi"
+      - "C:/Windows/arm-none-eabi-tapi.com"
+      - "C:/Windows/arm-none-eabi-tapi.exe"
+      - "C:/Windows/arm-none-eabi-tapi"
+      - "C:/Windows/System32/wbem/arm-none-eabi-tapi.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-tapi.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-tapi"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-tapi.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-tapi.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-tapi"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-tapi"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-tapi.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-tapi.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-tapi"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-tapi"
+      - "D:/OpenOCD/bin/arm-none-eabi-tapi.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-tapi.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-tapi"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-tapi"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/tapi"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/tapi.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/tapi.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/tapi"
+      - "D:/clion2026/CLion 2026.2.2/bin/tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/tapi"
+      - "D:/OpenOCD/bin/tapi.com"
+      - "D:/OpenOCD/bin/tapi.exe"
+      - "D:/OpenOCD/bin/tapi"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/tapi.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/tapi.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-10.3"
+      - "arm-none-eabi-gcc-ar-10"
+      - "arm-none-eabi-gcc-ar10"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.3"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-10.3"
+      - "arm-none-eabi-gcc-ranlib-10"
+      - "arm-none-eabi-gcc-ranlib10"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-g++.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-g++.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-g++"
+      - "C:/Windows/System32/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/arm-none-eabi-g++"
+      - "C:/Windows/arm-none-eabi-g++.com"
+      - "C:/Windows/arm-none-eabi-g++.exe"
+      - "C:/Windows/arm-none-eabi-g++"
+      - "C:/Windows/System32/wbem/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-g++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-g++"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-g++"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-g++.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-g++.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-g++"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-g++.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-g++.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-g++"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-g++.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-g++.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/"
+    found: "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      d:/clion2026/clion 2026.2.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/clion2026/clion 2026.2.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/"
+    found: "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-10.3"
+      - "arm-none-eabi-gcc-ar-10"
+      - "arm-none-eabi-gcc-ar10"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.3"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.3.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.3.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.3"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.3"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-10.3"
+      - "arm-none-eabi-gcc-ranlib-10"
+      - "arm-none-eabi-gcc-ranlib10"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.3"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.3.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.3.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.3"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib10"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib10"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib10.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib10.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib10"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib10.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib10.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib10"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc"
+      - "C:/Windows/System32/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc"
+      - "C:/Windows/arm-none-eabi-gcc.com"
+      - "C:/Windows/arm-none-eabi-gcc.exe"
+      - "C:/Windows/arm-none-eabi-gcc"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
+      Copyright (C) 2020 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ar-"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ar-"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ar-"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ar-"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ar-"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/"
+      - "D:/OpenOCD/bin/"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/"
+    searched_directories:
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/mingw/bin/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc-ranlib-"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc-ranlib-"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc-ranlib-"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/%JDK-21%/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/OpenOCD/bin/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-.com"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-.exe"
+      - "D:/clion2026/CLion 2026.2.2/bin/ninja/win/x64/arm-none-eabi-gcc-ranlib-"
+      - "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib.com"
+    found: "D:/clion2026/CLion 2026.2.2/arm/bin/arm-none-eabi-gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\mingw\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "%JDK-21%\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\arm\\bin"
+        - "D:\\OpenOCD\\bin"
+        - "D:\\clion2026\\CLion 2026.2.2\\bin\\ninja\\win\\x64"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a"
+      binary: "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a'
+        
+        Run Build Command(s): "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_fec6d/fast
+        D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fec6d.dir\\build.make CMakeFiles/cmTC_fec6d.dir/build
+        mingw32-make[1]: Entering directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a'
+        Building C object CMakeFiles/cmTC_fec6d.dir/CMakeCCompilerABI.c.obj
+        D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR19DD~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj -c "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR19DD~1.EXE
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccXWljIT.s
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccXWljIT.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/clion2~1/clion2~1.2/arm/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking C static library libcmTC_fec6d.a
+        "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_fec6d.dir\\cmake_clean_target.cmake
+        "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fec6d.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_fec6d.a CMakeFiles/cmTC_fec6d.dir/CMakeCCompilerABI.c.obj
+        D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR17F9~1.EXE libcmTC_fec6d.a
+        mingw32-make[1]: Leaving directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include]
+        implicit include dirs: [D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include;D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_fec6d/fast]
+        ignore line: [D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fec6d.dir\\build.make CMakeFiles/cmTC_fec6d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a']
+        ignore line: [Building C object CMakeFiles/cmTC_fec6d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR19DD~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj -c "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR19DD~1.EXE]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccXWljIT.s]
+        ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccXWljIT.s]
+        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+        ignore line: [COMPILER_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_fec6d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [Linking C static library libcmTC_fec6d.a]
+        ignore line: ["D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_fec6d.dir\\cmake_clean_target.cmake]
+        ignore line: ["D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fec6d.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_fec6d.a CMakeFiles/cmTC_fec6d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR17F9~1.EXE libcmTC_fec6d.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jbyq2a']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92"
+      binary: "D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92'
+        
+        Run Build Command(s): "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f6b2f/fast
+        D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f6b2f.dir\\build.make CMakeFiles/cmTC_f6b2f.dir/build
+        mingw32-make[1]: Entering directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92'
+        Building CXX object CMakeFiles/cmTC_f6b2f.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR10B2~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR10B2~1.EXE
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccICrmnn.s
+        GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccICrmnn.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/;d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/clion2~1/clion2~1.2/arm/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking CXX static library libcmTC_f6b2f.a
+        "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_f6b2f.dir\\cmake_clean_target.cmake
+        "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f6b2f.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_f6b2f.a CMakeFiles/cmTC_f6b2f.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR17F9~1.EXE libcmTC_f6b2f.a
+        mingw32-make[1]: Leaving directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include/c++/10.3.1]
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include/c++/10.3.1/backward]
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include]
+        implicit include dirs: [D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include/c++/10.3.1;D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include/c++/10.3.1/backward;D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include;D:/clion2026/CLion 2026.2.2/arm/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/clion2026/CLion 2026.2.2/arm/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/clion2026/CLion 2026.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f6b2f/fast]
+        ignore line: [D:/CLION2~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f6b2f.dir\\build.make CMakeFiles/cmTC_f6b2f.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f6b2f.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR10B2~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR10B2~1.EXE]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccICrmnn.s]
+        ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/clion2~1/clion2~1.2/arm/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "d:\\clion2~1\\clion2~1.2\\arm\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ d:\\clion2~1\\clion2~1.2\\arm\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Administrator\\AppData\\Local\\Temp\\ccICrmnn.s]
+        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+        ignore line: [COMPILER_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [d:/clion2~1/clion2~1.2/arm/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f6b2f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [Linking CXX static library libcmTC_f6b2f.a]
+        ignore line: ["D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_f6b2f.dir\\cmake_clean_target.cmake]
+        ignore line: ["D:\\clion2026\\CLion 2026.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f6b2f.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_f6b2f.a CMakeFiles/cmTC_f6b2f.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\CLION2~1\\CLION2~1.2\\arm\\bin\\AR17F9~1.EXE libcmTC_f6b2f.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'D:/New Folder/DIANKONGZUDIERCIZUOYE/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-c83e92']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
